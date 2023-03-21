@@ -1,12 +1,22 @@
 .desafio1 {
-    color: red;
-    font-size: 18px;
+    color: orange;
+    background-color: green;
   }
   
   #lista1 {
-    background-color: lightblue;
+    list-style-type: square;
+    color: #3366CC;
+    background-color: #E6E6FA;
   }
   
   #lista2 {
-    background-color: lightgreen;
+    list-style-type: upper-roman;
+    color: #3366CC;
+    background-color: #FAEBD7;
   }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
